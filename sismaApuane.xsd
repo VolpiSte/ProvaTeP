@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sismaApuane">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="regione">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="provincia">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="comune">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="priprietaPubblica" type="xs:integer"/>
+                                            <xs:element name="proprietaPrivata" type="xs:integer"/>
+                                        </xs:sequence>
+                                      <xs:attribute name="nome" type="xs:string" use="required"/>
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                            <xs:attribute name="proa" type="xs:string" use="required"/>
+                        </xs:complexType>
+                      </xs:element>
+                </xs:sequence>
+                <xs:attribute name="luogo" type="xs:string" use="required"/>
+            </xs:complexType>
+          </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
