@@ -1,0 +1,9 @@
+<!ELEMENT sismaApuane (regione+)>
+<!ELEMENT regione (provincia)>
+<!ATTLIST regione luogo CDATA #REQUIRED>
+<!ELEMENT provincia (comune)>
+<!ATTLIST provincia proa CDATA #REQUIRED>
+<!ELEMENT comune (proprietaPubblica, proprietaPrivata)>
+<!ATTLIST comune nome CDATA #REQUIRED>
+<!ELEMENT proprietaPubblica (#PCDATA)>
+<!ELEMENT proprietaPrivata (#PCDATA)>
