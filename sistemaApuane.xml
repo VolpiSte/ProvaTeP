@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sistemaApuane>
+    <regione luogo="Toscana">
+        <provincia proa="massaCarrara">
+            <comune nome="Aulla">
+                <priprietaPubblica>0</priprietaPubblica>
+                <proprietaPrivata>8</proprietaPrivata>
+            </comune>
+        </provincia>
+    </regione>
+
+    <regione luogo="Toscana">
+        <provincia proa="MassaCarrara">
+            <comune nome="Bagnone">
+                <priprietaPubblica>2</priprietaPubblica>
+                <proprietaPrivata>0</proprietaPrivata>
+            </comune>
+        </provincia>
+    </regione>
+
+    <regione luogo="Toscana">
+        <provincia proa="Lucca">
+            <comune nome="BagniDiLucca">
+                <priprietaPubblica>0</priprietaPubblica>
+                <proprietaPrivata>4</proprietaPrivata>
+            </comune>
+        </provincia>
+    </regione>
+
+    <regione luogo="EmiliaRomagna">
+        <provincia proa="Ferrara">
+            <comune nome="Cento">
+                <priprietaPubblica>5</priprietaPubblica>
+                <proprietaPrivata>7</proprietaPrivata>
+            </comune>
+        </provincia>
+    </regione>
+
+</sistemaApuane>
