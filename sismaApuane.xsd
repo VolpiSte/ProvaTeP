@@ -15,15 +15,9 @@
                                             <xs:element name="priprietaPubblica" type="xs:integer"/>
                                             <xs:element name="proprietaPrivata" type="xs:integer"/>
                                             <xs:element name="classe">
-                                                <xs:complexType>
-                                                    <xs:sequence>
-                                                        <xs:element name="Ste1"/>
-                                                        <xs:element name="Ste2"/>
-                                                        <xs:element name="Ste3"/>
-                                                        <xs:element name="Ste4"/>
-                                                    </xs:sequence>
-                                                    <xs:attribute name="nome" type="xs:string" use="required"/>
-                                                </xs:complexType>
+                                              <xs:complexType>
+                                                <xs:attribute name="nome" type="xs:string" use="required"></xs:attribute>
+                                              </xs:complexType>
                                             </xs:element>
                                         </xs:sequence>
                                       <xs:attribute name="nome" type="xs:string" use="required"/>
