@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sismaApuane SYSTEM "sismaApuane.dtd">
+<?xml-stylesheet type="text/xsl" href="sismaApuane.xsl"?>
 <sismaApuane>
     <regione luogo="Toscana">
         <provincia proa="massaCarrara">
             <comune nome="Aulla">
-                <priprietaPubblica>0</priprietaPubblica>
+                <proprietaPubblica>0</proprietaPubblica>
                 <proprietaPrivata>8</proprietaPrivata>
+                <classe nome="Ste1"></classe>
             </comune>
         </provincia>
     </regione>
@@ -12,8 +15,9 @@
     <regione luogo="Toscana">
         <provincia proa="MassaCarrara">
             <comune nome="Bagnone">
-                <priprietaPubblica>2</priprietaPubblica>
+                <proprietaPubblica>2</proprietaPubblica>
                 <proprietaPrivata>0</proprietaPrivata>
+                <classe nome="Ste2"></classe>
             </comune>
         </provincia>
     </regione>
@@ -21,8 +25,9 @@
     <regione luogo="Toscana">
         <provincia proa="Lucca">
             <comune nome="BagniDiLucca">
-                <priprietaPubblica>0</priprietaPubblica>
+                <proprietaPubblica>0</proprietaPubblica>
                 <proprietaPrivata>4</proprietaPrivata>
+                <classe nome="Ste3"></classe>
             </comune>
         </provincia>
     </regione>
@@ -30,8 +35,9 @@
     <regione luogo="EmiliaRomagna">
         <provincia proa="Ferrara">
             <comune nome="Cento">
-                <priprietaPubblica>5</priprietaPubblica>
+                <proprietaPubblica>5</proprietaPubblica>
                 <proprietaPrivata>7</proprietaPrivata>
+                <classe nome="Ste4"></classe>
             </comune>
         </provincia>
     </regione>

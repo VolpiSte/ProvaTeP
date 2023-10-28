@@ -1,9 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!ELEMENT sismaApuane (regione+)>
 <!ELEMENT regione (provincia)>
 <!ATTLIST regione luogo CDATA #REQUIRED>
 <!ELEMENT provincia (comune)>
 <!ATTLIST provincia proa CDATA #REQUIRED>
-<!ELEMENT comune (proprietaPubblica, proprietaPrivata)>
+<!ELEMENT comune (proprietaPubblica, proprietaPrivata, classe)>
 <!ATTLIST comune nome CDATA #REQUIRED>
 <!ELEMENT proprietaPubblica (#PCDATA)>
 <!ELEMENT proprietaPrivata (#PCDATA)>
+<!ELEMENT classe (#PCDATA)>
+<!ATTLIST classe nome CDATA #REQUIRED>

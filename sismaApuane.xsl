@@ -51,14 +51,16 @@
             <th>Comune</th>
             <th>Proprietà Pubblica</th>
             <th>Proprietà Privata</th>
+            <th>Classe</th>
           </tr>
-          <xsl:for-each select="sismaApuane/regione/provincia/comune">
+          <xsl:for-each select="sismaApuane/regione/provincia/comune/classe">
             <tr>
-              <td><xsl:value-of select="../../@luogo"/></td>
-              <td><xsl:value-of select="../@proa"/></td>
+              <td><xsl:value-of select="../../../@luogo"/></td>
+              <td><xsl:value-of select="../../@proa"/></td>
+              <td><xsl:value-of select="../@nome"/></td>
+              <td><xsl:value-of select="../priprietaPubblica"/></td>
+              <td><xsl:value-of select="../proprietaPrivata"/></td>
               <td><xsl:value-of select="@nome"/></td>
-              <td><xsl:value-of select="priprietaPubblica"/></td>
-              <td><xsl:value-of select="proprietaPrivata"/></td>
             </tr>
           </xsl:for-each>
         </table>
